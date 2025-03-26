@@ -1,0 +1,7 @@
+D:\Boopathi\Projects\IRAS\OrderPaymentServices\RabbitMQ.OrderServices.Subscriber\obj\Debug\net6.0\RabbitMQ.OrderServices.Subscriber.csproj.AssemblyReference.cache
+D:\Boopathi\Projects\IRAS\OrderPaymentServices\RabbitMQ.OrderServices.Subscriber\obj\Debug\net6.0\RabbitMQ.OrderServices.Subscriber.GeneratedMSBuildEditorConfig.editorconfig
+D:\Boopathi\Projects\IRAS\OrderPaymentServices\RabbitMQ.OrderServices.Subscriber\obj\Debug\net6.0\RabbitMQ.OrderServices.Subscriber.AssemblyInfoInputs.cache
+D:\Boopathi\Projects\IRAS\OrderPaymentServices\RabbitMQ.OrderServices.Subscriber\obj\Debug\net6.0\RabbitMQ.OrderServices.Subscriber.AssemblyInfo.cs
+D:\Boopathi\Projects\IRAS\OrderPaymentServices\RabbitMQ.OrderServices.Subscriber\obj\Debug\net6.0\RabbitMQ.OrderServices.Subscriber.csproj.CoreCompileInputs.cache
+D:\Boopathi\Projects\IRAS\OrderPaymentServices\RabbitMQ.OrderServices.Subscriber\obj\Debug\net6.0\RabbitMQ.OrderServices.Subscriber.MvcApplicationPartsAssemblyInfo.cs
+D:\Boopathi\Projects\IRAS\OrderPaymentServices\RabbitMQ.OrderServices.Subscriber\obj\Debug\net6.0\RabbitMQ.OrderServices.Subscriber.MvcApplicationPartsAssemblyInfo.cache
