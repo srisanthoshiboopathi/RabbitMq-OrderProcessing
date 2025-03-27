@@ -1,4 +1,6 @@
+using RabbitMQ.OrderServices.Publisher.Services;
 using RabbitMQ.OrderServices.Subscriber.Data;
+using RabbitMQ.OrderServices.Subscriber.ListenerService;
 using RabbitMQ.OrderServices.Subscriber.Services;
 
 var builder = WebApplication.CreateBuilder(args);

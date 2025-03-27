@@ -1,7 +1,9 @@
 ﻿using RabbitMQ.OrderServices.Subscriber.Data;
 using RabbitMQ.OrderServices.Subscriber.Models;
 using RabbitMQ.OrderServices.Subscriber.Services;
+using RabbitMQ.Client;
 using Newtonsoft.Json;
+using RabbitMQ.OrderServices.Publisher.Services;
 
 namespace RabbitMQ.OrderServices.Subscriber.Services
 {

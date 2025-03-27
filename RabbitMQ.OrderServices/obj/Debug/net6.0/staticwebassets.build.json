@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UuNRU2R9uqT+zeuKEUcMGiFXpq+unnBtUb4+FOmSxPg=",
+  "Source": "RabbitMQ.OrderServices.Publisher",
+  "BasePath": "_content/RabbitMQ.OrderServices.Publisher",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

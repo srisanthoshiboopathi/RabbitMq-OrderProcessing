@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "MekkGfCooZ5VZnr5TlVr+wVz6x65r9HqyeRMwIg6xNE=",
+  "Source": "RabbitMQ.OrderServices.Subscriber",
+  "BasePath": "_content/RabbitMQ.OrderServices.Subscriber",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\Boopathi\\Projects\\IRAS\\OrderPaymentServices\\RabbitMQ.OrderServices\\RabbitMQ.OrderServices.Publisher.csproj",
+      "Version": 2,
+      "Source": "RabbitMQ.OrderServices.Publisher",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
