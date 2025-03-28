@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MangoDB.OrderServices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0276267db14fcde689e6584b47d33e089a552d21")]
 [assembly: System.Reflection.AssemblyProductAttribute("MangoDB.OrderServices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MangoDB.OrderServices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

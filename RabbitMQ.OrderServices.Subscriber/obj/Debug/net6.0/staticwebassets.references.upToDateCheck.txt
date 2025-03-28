@@ -1,0 +1,1 @@
+C:\Users\Admin\Downloads\RabbitMq-OrderProcessing-master\RabbitMq-OrderProcessing-master\RabbitMQ.OrderServices\obj\Debug\net6.0\staticwebassets.build.json

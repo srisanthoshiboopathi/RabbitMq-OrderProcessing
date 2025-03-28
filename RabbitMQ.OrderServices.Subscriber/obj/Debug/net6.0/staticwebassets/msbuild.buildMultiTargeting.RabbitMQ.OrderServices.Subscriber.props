@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RabbitMQ.OrderServices.Subscriber.props" />
+</Project>

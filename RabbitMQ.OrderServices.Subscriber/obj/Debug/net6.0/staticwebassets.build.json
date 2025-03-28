@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "ls0qlF3AFC+V8S/xZXaInE8GHhyiNzV7MRJ2BJ7tydQ=",
+  "Source": "RabbitMQ.OrderServices.Subscriber",
+  "BasePath": "_content/RabbitMQ.OrderServices.Subscriber",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Admin\\Downloads\\RabbitMq-OrderProcessing-master\\RabbitMq-OrderProcessing-master\\RabbitMQ.OrderServices\\RabbitMQ.OrderServices.Publisher.csproj",
+      "Version": 2,
+      "Source": "RabbitMQ.OrderServices.Publisher",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

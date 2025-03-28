@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Boopathi\\Projects\\IRAS\\OrderPaymentServices\\RabbitMQ.OrderServices.Subscriber\\RabbitMQ.OrderServices.Subscriber.csproj": {}
+    "D:\\Boopathi\\Learning\\Microservices\\RabbitMQ\\RabbitMq-OrderProcessing\\RabbitMQ.OrderServices.Subscriber\\RabbitMQ.OrderServices.Subscriber.csproj": {}
   },
   "projects": {
-    "D:\\Boopathi\\Projects\\IRAS\\OrderPaymentServices\\RabbitMQ.OrderServices.Subscriber\\RabbitMQ.OrderServices.Subscriber.csproj": {
+    "D:\\Boopathi\\Learning\\Microservices\\RabbitMQ\\RabbitMq-OrderProcessing\\RabbitMQ.OrderServices.Subscriber\\RabbitMQ.OrderServices.Subscriber.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Boopathi\\Projects\\IRAS\\OrderPaymentServices\\RabbitMQ.OrderServices.Subscriber\\RabbitMQ.OrderServices.Subscriber.csproj",
+        "projectUniqueName": "D:\\Boopathi\\Learning\\Microservices\\RabbitMQ\\RabbitMq-OrderProcessing\\RabbitMQ.OrderServices.Subscriber\\RabbitMQ.OrderServices.Subscriber.csproj",
         "projectName": "RabbitMQ.OrderServices.Subscriber",
-        "projectPath": "D:\\Boopathi\\Projects\\IRAS\\OrderPaymentServices\\RabbitMQ.OrderServices.Subscriber\\RabbitMQ.OrderServices.Subscriber.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\Boopathi\\Projects\\IRAS\\OrderPaymentServices\\RabbitMQ.OrderServices.Subscriber\\obj\\",
+        "projectPath": "D:\\Boopathi\\Learning\\Microservices\\RabbitMQ\\RabbitMq-OrderProcessing\\RabbitMQ.OrderServices.Subscriber\\RabbitMQ.OrderServices.Subscriber.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Boopathi\\Learning\\Microservices\\RabbitMQ\\RabbitMq-OrderProcessing\\RabbitMQ.OrderServices.Subscriber\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,14 +31,24 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Boopathi\\Learning\\Microservices\\RabbitMQ\\RabbitMq-OrderProcessing\\RabbitMQ.OrderServices\\RabbitMQ.OrderServices.Publisher.csproj": {
+                "projectPath": "D:\\Boopathi\\Learning\\Microservices\\RabbitMQ\\RabbitMq-OrderProcessing\\RabbitMQ.OrderServices\\RabbitMQ.OrderServices.Publisher.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -50,7 +64,7 @@
             },
             "RabbitMQ.Client": {
               "target": "Package",
-              "version": "[7.1.2, )"
+              "version": "[6.4.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -63,7 +77,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -75,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

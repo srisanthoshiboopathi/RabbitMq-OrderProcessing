@@ -2,24 +2,25 @@
 using RabbitMQ.OrderServices.Subscriber.Models;
 using RabbitMQ.OrderServices.Subscriber.Services;
 using Newtonsoft.Json;
+using RabbitMQ.OrderServices.Publisher.Services;
 
 namespace RabbitMQ.OrderServices.Subscriber.Services
 {
     public class OrderService
     {
-        private readonly RabbitMqService _rabbitMqService;
+        private readonly RabbitMQReceivingServices _rabbitMQReceivingServices;
         private readonly MongoDbContext _mongoDbContext;
 
-        public OrderService(RabbitMqService rabbitMqService, MongoDbContext mongoDbContext)
+        public OrderService(RabbitMQReceivingServices rabbitMQReceivingServices, MongoDbContext mongoDbContext)
         {
-            _rabbitMqService = rabbitMqService;
+            _rabbitMQReceivingServices = rabbitMQReceivingServices;
             _mongoDbContext = mongoDbContext;
         }
 
         public void StartListening()
         {
             // Listening for messages from the RabbitMQ queue
-            _rabbitMqService.ReceiveMessage("order_queue", async (message) =>
+            _rabbitMQReceivingServices.ReceiveMessage("order_queue", async (message) =>
             {
                 var order = JsonConvert.DeserializeObject<Order>(message);
 

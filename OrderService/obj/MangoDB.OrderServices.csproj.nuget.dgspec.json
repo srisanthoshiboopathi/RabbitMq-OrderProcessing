@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Boopathi\\Projects\\IRAS\\OrderPaymentServices\\OrderService\\MangoDB.OrderServices.csproj": {}
+    "D:\\Boopathi\\Learning\\Microservices\\RabbitMQ\\RabbitMq-OrderProcessing\\OrderService\\MangoDB.OrderServices.csproj": {}
   },
   "projects": {
-    "D:\\Boopathi\\Projects\\IRAS\\OrderPaymentServices\\OrderService\\MangoDB.OrderServices.csproj": {
+    "D:\\Boopathi\\Learning\\Microservices\\RabbitMQ\\RabbitMq-OrderProcessing\\OrderService\\MangoDB.OrderServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Boopathi\\Projects\\IRAS\\OrderPaymentServices\\OrderService\\MangoDB.OrderServices.csproj",
+        "projectUniqueName": "D:\\Boopathi\\Learning\\Microservices\\RabbitMQ\\RabbitMq-OrderProcessing\\OrderService\\MangoDB.OrderServices.csproj",
         "projectName": "MangoDB.OrderServices",
-        "projectPath": "D:\\Boopathi\\Projects\\IRAS\\OrderPaymentServices\\OrderService\\MangoDB.OrderServices.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\Boopathi\\Projects\\IRAS\\OrderPaymentServices\\OrderService\\obj\\",
+        "projectPath": "D:\\Boopathi\\Learning\\Microservices\\RabbitMQ\\RabbitMq-OrderProcessing\\OrderService\\MangoDB.OrderServices.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Boopathi\\Learning\\Microservices\\RabbitMQ\\RabbitMq-OrderProcessing\\OrderService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -63,7 +73,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -75,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

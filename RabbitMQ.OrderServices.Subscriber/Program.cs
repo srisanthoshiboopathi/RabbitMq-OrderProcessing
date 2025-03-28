@@ -1,4 +1,5 @@
 using RabbitMQ.OrderServices.Subscriber.Data;
+using RabbitMQ.OrderServices.Subscriber.ListenerService;
 using RabbitMQ.OrderServices.Subscriber.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton<MongoDbContext>();
 
 // Add RabbitMqService and OrderService to the DI container
-builder.Services.AddSingleton<RabbitMqService>(serviceProvider => new RabbitMqService("localhost"));  // Replace with your RabbitMQ host if needed
+builder.Services.AddSingleton<RabbitMQReceivingServices>(serviceProvider => new RabbitMQReceivingServices("localhost"));  // Replace with your RabbitMQ host if needed
 builder.Services.AddSingleton<OrderService>();
 
 // Add the background service for consuming messages from RabbitMQ
